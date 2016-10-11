@@ -1,0 +1,21 @@
+{
+    "name": "shadowbane/mysqltomodel",
+    "description": "Create easy model from MySQL Databases",
+    "keywords": ["laravel","mysql", "mariadb", "models", "model", "model generator", "model generators", "Laravel 5.3", "smart generator", "Adly Shadowbane", "shadowbane"],
+    "type": "library",
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "Adly Shadowbane",
+            "email": "adly.shadowbane@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Shadowbane\\MySQLModel\\": "src/"
+        }
+    }
+}
