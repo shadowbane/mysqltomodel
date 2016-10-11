@@ -7,4 +7,3 @@ before_script:
 
 script:
   - composer validate
-  - vendor/bin/phpunit
